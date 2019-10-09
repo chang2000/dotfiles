@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 # bar settings
-yabai -m config status_bar                   on
+yabai -m config status_bar                   off
 yabai -m config status_bar_text_font         "SF Pro Display:Regular:14.0"
 yabai -m config status_bar_icon_font         "FontAwesome:Regular:12.0"
 yabai -m config status_bar_background_color  0xff202020
@@ -38,9 +38,9 @@ yabai -m rule --add app="^App Store$" manage=off
 yabai -m rule --add app="^Activity Monitor$" manage=off
 yabai -m rule --add app="^Telegram$" manage=off
 yabai -m rule --add app="^WeChat$" manage=off
-yabai -m rule --add app="^Music$" display=off
-yabai -m rule --add app="^Message$" display=off
-yabai -m rule --add app="^Podcasts$" display=off
+yabai -m rule --add app="^Music$" manage=off
+yabai -m rule --add app="^Message$" manage=off
+yabai -m rule --add app="^Podcasts$" manage=off
 
 # general space settings
 
