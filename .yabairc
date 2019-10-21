@@ -42,6 +42,9 @@ yabai -m rule --add app="^Music$" manage=off
 yabai -m rule --add app="^Message$" manage=off
 yabai -m rule --add app="^Podcasts$" manage=off
 yabai -m rule --add app="^Spark$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Dropbox$" manage=off
 
 # general space settings
 
