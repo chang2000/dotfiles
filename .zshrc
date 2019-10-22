@@ -57,3 +57,6 @@ export LC_ALL=en_US.UTF-8
     alias wmstart="brew services start skhd;brew services start yabai"
     alias wmstop="brew services stop skhd;brew services stop yabai"
     alias wmrestart="brew services restart skhd;brew services restart yabai"
+
+    alias gpuoff="sudo pmset -a GPUSwitch 0"
+    alias gpuauto="sudo pmset -a GPUSwitch 2"
