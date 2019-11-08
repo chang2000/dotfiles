@@ -9,6 +9,7 @@
 #
 export ZSH="/Users/tianchangwang/.oh-my-zsh"
 export PATH=/usr/local/opt/ruby/bin:$PATH
+export PATH="/usr/local/mysql/bin:$PATH"
 ZSH_THEME="zhann"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
@@ -45,10 +46,10 @@ export LC_ALL=en_US.UTF-8
     alias gcc="gcc-9"
 
     alias ty="open -a /Applications/Typora.app"
-    alias 4130="cd ~/Desktop/CSCI4130"
-    alias 3130="cd ~/Desktop/CSCI3130"
-    alias 3160="cd ~/Desktop/CSCI3160"
-    alias 3150="cd ~/Desktop/CSCI3150"
+    alias 4130="cd ~/Documents/CSCI4130"
+    alias 3130="cd ~/Documents/CSCI3130"
+    alias 3160="cd ~/Documents/CSCI3160"
+    alias 3150="cd ~/Documents/CSCI3150"
 
     alias ssh3150="ssh csci3150@127.0.0.1 -p 2223"
     alias sshmsf="ssh -p 2222 msfadmin@localhost"
@@ -57,6 +58,9 @@ export LC_ALL=en_US.UTF-8
     alias wmstart="brew services start skhd;brew services start yabai"
     alias wmstop="brew services stop skhd;brew services stop yabai"
     alias wmrestart="brew services restart skhd;brew services restart yabai"
+
+    alias apastart="sudo apachectl start"
+    alias aparestart="sudo apachectl restart"
 
     alias gpuoff="sudo pmset -a GPUSwitch 0"
     alias gpuauto="sudo pmset -a GPUSwitch 2"
