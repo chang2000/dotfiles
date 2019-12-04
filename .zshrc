@@ -10,6 +10,7 @@
 export ZSH="/Users/tianchangwang/.oh-my-zsh"
 export PATH=/usr/local/opt/ruby/bin:$PATH
 export PATH="/usr/local/mysql/bin:$PATH"
+export PATH="$HOME/.emacs.d/bin:$PATH"
 ZSH_THEME="zhann"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
@@ -21,6 +22,7 @@ export LC_ALL=en_US.UTF-8
     alias xl="xelatex"
     alias py="python3"
     alias python="python3"
+    alias pip="pip"
     alias vi="vim"
     alias rm="trash"
 
@@ -64,3 +66,10 @@ export LC_ALL=en_US.UTF-8
 
     alias gpuoff="sudo pmset -a GPUSwitch 0"
     alias gpuauto="sudo pmset -a GPUSwitch 2"
+
+    alias sizeof="du -sh"
+
+    alias blog="cd $HOME/Project/blog"
+    alias cv="cd $HOME/Documents/Profile/resume"
+
+    alias e="emacs"
