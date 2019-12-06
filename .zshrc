@@ -70,6 +70,10 @@ export LC_ALL=en_US.UTF-8
     alias sizeof="du -sh"
 
     alias blog="cd $HOME/Project/blog"
-    alias cv="cd $HOME/Documents/Profile/resume"
+    alias resume="cd $HOME/Documents/Profile/Resumes/resume"
 
     alias e="emacs"
+
+
+    # For hugo deploy
+    alias hugo-deploy="./deploy.sh -n"
